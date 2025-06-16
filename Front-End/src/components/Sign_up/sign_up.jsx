@@ -28,6 +28,8 @@ const Sign_up = () => {
       event.preventDefault();
       const files = Array.from(event.dataTransfer.files);
       const data = { docuname: docuname, file: files[0] };
+      console.log("klsfhlkds");
+      
       setSelectedFiles([...selectedFiles, data]);
     };
   
