@@ -1,0 +1,19 @@
+/* 
+if you have two divs,
+ 1 is parent div , 
+ second is child div , 
+ you want to position child div in center horizontaly and vertically
+*/
+
+.main-div {
+  width: 100%;
+  height: 100vh; /* or any specific height */
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+}
+
+.second-div {
+  width: 80%;
+}
+

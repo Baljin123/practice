@@ -1,0 +1,135 @@
+/* ==== GENERAL ==== */
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ==== SIZE ==== */
+.img-50 {
+  width: 50px;
+  height: 50px;
+}
+
+.img-100 {
+  width: 100px;
+  height: 100px;
+}
+
+.img-200 {
+  width: 200px;
+  height: 200px;
+}
+
+.img-full-width {
+  width: 100%;
+  height: auto;
+}
+
+/* ==== SHAPE ==== */
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img-rounded {
+  border-radius: 10px;
+}
+
+.img-rounded-xl {
+  border-radius: 20px;
+}
+
+/* ==== FIT ==== */
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ==== BORDER ==== */
+.img-border {
+  border: 2px solid #ccc;
+  padding: 5px;
+}
+
+.img-border-dark {
+  border: 2px solid #333;
+}
+
+/* ==== SHADOW ==== */
+.img-shadow {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ==== CENTERING ==== */
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ==== POSITIONING ==== */
+.img-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-right {
+  float: right;
+  margin-left: 10px;
+}
+
+/* ==== HOVER EFFECTS ==== */
+.img-hover-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-hover-zoom:hover {
+  transform: scale(1.05);
+}
+
+.img-hover-opacity {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.img-hover-opacity:hover {
+  opacity: 0.7;
+}
+
+/* ==== FILTERS ==== */
+.img-grayscale {
+  filter: grayscale(100%);
+}
+
+.img-blur {
+  filter: blur(2px);
+}
+
+.img-brightness {
+  filter: brightness(1.2);
+}
+
+.img-contrast {
+  filter: contrast(120%);
+}
+
+/* ==== RESPONSIVE CONTAINER ==== */
+.img-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

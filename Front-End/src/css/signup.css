@@ -1,0 +1,20 @@
+.sign_up_image{
+    width: auto;
+    margin-top: 50px;
+    height: auto;
+}
+
+  .signup_row {
+    --bs-gutter-x: 0rem;
+    background-color: black;
+    min-height: 700px;
+}
+
+.signup_form_group{
+    margin: 0px auto;
+    margin-top: 5px;
+}
+
+.heading_progress_div{
+    margin: 2px auto;
+}

@@ -1,0 +1,19 @@
+# === Node modules ===
+backend/node_modules/
+Front-End/node_modules/
+
+# === Build output ===
+backend/dist/
+frontend/dist/
+
+# === Environment files ===
+backend/.env
+Front-End/.env
+
+# === Logs ===
+*.log
+
+# === System & Editor files ===
+.DS_Store
+.vscode/
+.idea/

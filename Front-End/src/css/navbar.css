@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.parent_div{
+  display: flex;
+}
+
+.main_div {
+  display: flex;
+  justify-content: left;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  height: 50px;            /* required for vertical centering */
+  margin-left: 150px;
+}
+
+.links {
+    color: black;
+    margin-left: 100px;
+    text-decoration: none;
+}
+

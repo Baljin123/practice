@@ -1,0 +1,99 @@
+.myDiv {
+  /* Size */
+  width: 80%;               /* responsive width */
+  max-width: 600px;
+  min-width: 300px;
+  height: 350px;
+  max-height: 500px;
+  min-height: 200px;
+
+  /* Box Model */
+  padding: 25px 30px;
+  margin: 20px auto;        /* centers horizontally */
+  border: 3px solid #007BFF;
+  border-radius: 12px;
+  box-sizing: border-box;
+
+  /* Background */
+  background-color: #e3f2fd;
+  background-image: linear-gradient(to right, #90caf9, #42a5f5);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  /* Text Styling */
+  color: #0d47a1;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7;
+  text-align: justify;
+  text-transform: capitalize;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+
+  /* Layout & Display */
+  display: flex;                   /* flexible container */
+  flex-direction: column;          /* vertical stacking */
+  justify-content: center;         /* center vertically */
+  align-items: center;             /* center horizontally */
+  gap: 15px;                      /* spacing between flex items */
+  
+  
+  /* Positioning */
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  /* Overflow */
+  overflow-y: auto;               /* vertical scrollbar if needed */
+  overflow-x: hidden;
+
+  /* Effects */
+  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.2);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  /* Interaction */
+  cursor: pointer;
+}
+
+.myDiv:hover {
+  box-shadow: 0 12px 24px rgba(0, 123, 255, 0.35);
+  transform: translateY(-5px);
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .myDiv {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+    font-size: 16px;
+  }
+}
+
+
+/* **********************ALL BASIC********************** */
+.myDiv {
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+  margin: 15px auto;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: #f9f9f9;
+  color: #222;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.myDiv:hover {
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}

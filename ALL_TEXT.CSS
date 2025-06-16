@@ -1,0 +1,123 @@
+/* Text Color */
+.main {
+color: #000000;
+}
+
+/* Text Alignment */
+.main {
+text-align: justify; /* left, right, center, justify */
+}
+
+/* Text Decoration */
+.main {
+text-decoration: underline overline line-through;
+text-decoration-color: red;      /* color of decoration */
+text-decoration-style: wavy;     /* solid, double, dotted, dashed, wavy */
+text-decoration-thickness: 2px; /* thickness of the decoration */
+}
+
+/* Text Transformation */
+.main {
+text-transform: capitalize; /* uppercase, lowercase, capitalize, none */
+}
+
+/* Letter Spacing */
+.main {
+letter-spacing: 0.05em;
+}
+
+/* Word Spacing */
+.main {
+word-spacing: 0.2em;
+}
+
+/* Line Height */
+.main {
+line-height: 1.6;
+}
+
+/* Font Properties */
+.main {
+font-family: "Times New Roman", serif;
+font-size: 18px;
+font-style: oblique;
+font-variant: small-caps;
+font-weight: 700; /* normal, bold, 100-900 */
+}
+
+/* Text Indentation */
+.main {
+text-indent: 40px;
+}
+
+/* Text Shadow */
+.main {
+text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* White Space */
+.main {
+white-space: pre-wrap; /* normal, nowrap, pre, pre-wrap, pre-line */
+}
+
+/* Word Break */
+.main {
+word-break: break-word; /* normal, break-all, keep-all, break-word */
+}
+
+/* Text Overflow */
+.main {
+text-overflow: ellipsis; /* clip, ellipsis */
+overflow-wrap: break-word; /* how to break long words */
+}
+
+/* Direction and Bidi */
+.main {
+direction: rtl;          /* ltr, rtl */
+unicode-bidi: embed;     /* normal, embed, bidi-override */
+}
+
+/* Text Justify */
+.main {
+text-justify: inter-word; /* auto, none, inter-word, inter-character, distribute */
+}
+
+/* Hanging Punctuation */
+.main {
+hanging-punctuation: first; /* none, first, last, force */
+}
+
+/* Line Break */
+.main {
+line-break: strict; /* auto, loose, normal, strict */
+}
+
+/* Text Orientation (mainly for vertical text) */
+.main {
+text-orientation: mixed; /* mixed, upright, sideways */
+}
+
+/* Vertical Align (for inline text) */
+.main {
+vertical-align: middle; /* baseline, sub, super, top, middle, bottom */
+}
+
+/* Text Size Adjust (for mobile browsers) */
+.main {
+text-size-adjust: 100%; /* auto, none, % */
+}
+
+/* Letter Case (old, but still) */
+.main {
+-webkit-text-stroke: 1px black; /* stroke outline */
+}
+
+/* Hanging Punctuation */
+.main {
+hanging-punctuation: allow;
+}
+
+/* Word Wrap (alias for overflow-wrap) */
+.main {
+    word-wrap: break-word;
+}
